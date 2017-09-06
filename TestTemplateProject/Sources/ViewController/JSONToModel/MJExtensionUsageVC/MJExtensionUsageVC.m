@@ -15,7 +15,7 @@
  *  1.[NSNull null]                                   　✔︎
  *  2.嵌套Model                                  　      ✔︎
  *  3.NSArray中为Model                                  ✔︎
- *  4.字段需要换转处理                                  　 ✔︎
+ *  4.字段需要换转处理                                  　 ✔︎(JSON转Model可以定制，但是Model转JSON没找到方法)
  *  5.字段 JSON 中没有                                   ✔︎
  *  6.未知字段(向后兼容）                                  ✔︎
  *  7.继承情况下多态的支持                                 ✘
@@ -91,7 +91,7 @@
     //    *  1.[NSNull null]                                   　✔︎
     //    *  2.嵌套Model                                  　      ✔︎
     //    *  3.NSArray中为Model                                  ✔︎
-    //    *  4.字段需要换转处理                                  　 ✔︎
+    //    *  4.字段需要换转处理                                  　 ✔︎(JSON转Model可以定制，但是Model转JSON没找到方法)
     //    *  5.字段 JSON 中没有                                    ✔︎
     //    *  6.未知字段(向后兼容）                                  ✔︎
     id JSONDict = [JSONUtils getJSONObjectWithJSONFileName:@"MJExtensionTest"];
