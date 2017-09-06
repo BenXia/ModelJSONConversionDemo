@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JSONToModelVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcP-o6-3KM">
+                    <rect key="frame" x="20" y="50" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7eD-es-emZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="JSONModel 测试"/>
+                    <connections>
+                        <action selector="testJSONModelUsage:" destination="-1" eventType="touchUpInside" id="9P8-Xv-N86"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZN-Xr-i5Y">
+                    <rect key="frame" x="20" y="110" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="R67-so-4lj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Mantle 测试"/>
+                    <connections>
+                        <action selector="testMantleUsage:" destination="-1" eventType="touchUpInside" id="1nv-Jr-78e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C85-a5-i3C">
+                    <rect key="frame" x="20" y="170" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="9lk-Lb-c7b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="MJExtension 测试"/>
+                    <connections>
+                        <action selector="testMJExtensionUsage:" destination="-1" eventType="touchUpInside" id="due-4r-ui5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vkv-iZ-VNP">
+                    <rect key="frame" x="20" y="230" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1Z0-hC-X8e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="YYModel 测试"/>
+                    <connections>
+                        <action selector="testYYModelUsage:" destination="-1" eventType="touchUpInside" id="JUr-6Z-9J0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="C85-a5-i3C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3ya-oQ-ikW"/>
+                <constraint firstItem="Vkv-iZ-VNP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6TL-6G-nx5"/>
+                <constraint firstItem="QZN-Xr-i5Y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9U3-Wl-47N"/>
+                <constraint firstItem="C85-a5-i3C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="9li-EO-oyd"/>
+                <constraint firstItem="C85-a5-i3C" firstAttribute="top" secondItem="QZN-Xr-i5Y" secondAttribute="bottom" constant="10" id="EJc-iB-7Pt"/>
+                <constraint firstItem="hcP-o6-3KM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="Kfd-UF-sO2"/>
+                <constraint firstItem="hcP-o6-3KM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="P3A-0K-JCt"/>
+                <constraint firstItem="QZN-Xr-i5Y" firstAttribute="top" secondItem="hcP-o6-3KM" secondAttribute="bottom" constant="10" id="bY0-Oz-mjG"/>
+                <constraint firstItem="Vkv-iZ-VNP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="naK-15-Zpy"/>
+                <constraint firstItem="hcP-o6-3KM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="rPM-oe-WKx"/>
+                <constraint firstItem="Vkv-iZ-VNP" firstAttribute="top" secondItem="C85-a5-i3C" secondAttribute="bottom" constant="10" id="uRe-y6-Eie"/>
+                <constraint firstItem="QZN-Xr-i5Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xbO-k3-orf"/>
+            </constraints>
+            <point key="canvasLocation" x="12" y="4"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  TestTemplateProject
+//
+//  Created by Ben on 2017/5/22.
+//  Copyright (c) 2017年 Ben. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ReactiveCocoa.h"
+#import "Masonry.h"
+#import "KeyboardManager.h"
+#import "Mantle.h"
+#import "JSONModelLib.h"
+#import "MJExtension.h"
+#import "YYModel.h"
+#import "commonConstDef.h"
+#import "typedef.h"
+#import "macrodef.h"
+#import "GCDObjC.h"
+#import "Utility.h"
+#import "UIView+Hierarchy.h"
+#import "UIView+Helper.h"
+#import "NSString+Size.h"
+#import "UIImage+Blur.h"
+#import "BaseViewController.h"
+#import "BNNavigationController.h"
+#import "BNTabBarController.h"
+#import "BNPopoverWindow.h"
+#import "BasePopoverVC.h"
+
+#endif /* PrefixHeader_pch */

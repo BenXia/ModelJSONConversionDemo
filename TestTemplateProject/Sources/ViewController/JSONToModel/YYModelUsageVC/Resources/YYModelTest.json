@@ -1,0 +1,15 @@
+{
+    "name" : null,
+    "age" : 20,
+    "sex" : 0,
+    "login_date" : "1445136827",
+    "phone" : {
+        "name" : "小明的iPhone",
+        "price" : 5000
+    },
+    "books" : [
+       {"name" : "西游记"},
+       {"name" : "三国演义"}
+    ],
+    "addition" : "Addition info for test"
+}
