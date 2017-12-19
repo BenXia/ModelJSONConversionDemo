@@ -46,6 +46,7 @@
              @"loginDate" : @"login_date",
              @"phone" : @"phone",
              @"books" : @"books",
+             @"numbersArray" : @"numbersArray",
              @"notExistFieldOne" : @"notExistFieldOne"};
 }
 

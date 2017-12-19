@@ -46,6 +46,7 @@ typedef NS_ENUM(NSUInteger, Sex) {
 @property (nonatomic, strong, nullable) NSDate *loginDate;
 @property (nonatomic, strong, nullable) MantlePhone *phone;
 @property (nonatomic, copy, nullable) NSArray<MantleBook *> *books;
+@property (nonatomic, copy, nullable) NSArray<NSNumber *> *numbersArray;
 
 @property (nonatomic, copy, nullable) NSString *notExistFieldOne;
 @property (nonatomic, copy, nullable) NSString *notExistFieldTwo;

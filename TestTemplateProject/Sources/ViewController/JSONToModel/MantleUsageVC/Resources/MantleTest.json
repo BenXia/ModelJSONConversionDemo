@@ -11,6 +11,12 @@
                {"name" : "西游记"},
                {"name" : "三国演义"}
                ],
+    "numbersArray" : [
+               20760007,
+               20760008,
+               20760009,
+               20760013
+    ],
     "addition" : "Addition info for test"
 }
 
